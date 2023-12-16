@@ -1,0 +1,11 @@
+
+
+openFile = "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 2\"]/Window[@ClassName=\"ApplicationFrameWindow\"]
+[@Name=\"PPTX Viewer\"]/Window[@ClassName=\"Windows.UI.Core.CoreWindow\"][@Name=\"PPTX Viewer\"]
+/Custom[@AutomationId=\"navigationView\"]/Pane[@ClassName=\"ScrollViewer\"]/Group[@AutomationId=\
+"TopNavMenuItemsHost\"]/TabItem[@ClassName=\"Microsoft.UI.Xaml.Controls.NavigationViewItem\"][@Name=\"Open File..\"]"
+
+inputFileName = "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 2\"]/Window[@ClassName=\"ApplicationFrameWindow\"][@Name=\"PPTX Viewer\"]/Window[@ClassName=\"#32770\"][@Name=\"Open\"]
+/ComboBox[@ClassName=\"ComboBox\"][@Name=\"File name:\"]/Edit[@ClassName=\"Edit\"][@Name=\"File name:\"]"
+
+file: 08.Security-Testing
